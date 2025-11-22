@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "nbtapi",
+	"version": "${version}",
+	"name": "NBTApi",
+	"description": "Mod for reading/modifying NBT data in level.dat.",
+	"authors": [
+		"SeFort"
+	],
+	"contact": {
+		"sources": "https://github.com/SeFort/NBTApi"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+          "lol.sefort.nbtapi.NBTApi"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
